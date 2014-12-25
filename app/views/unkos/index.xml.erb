@@ -1,11 +1,14 @@
 <?xml version="1.0" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="/index.xsl"?>
-<unkos>
- <% @unkos.each do |unko| %>
-  <unko>
-   <id><%= unko.id %></id>
-   <name><%= unko.name %></name>
-   <greeting><%= unko.greeting %></greeting>
-  </unko>
- <% end %>
-</unkos>
+<response>
+ <%= csrf_meta_tags %>
+ <unkos>
+  <% @unkos.each do |unko| %>
+   <unko>
+    <id><%= unko.id %></id>
+    <name><%= unko.name %></name>
+    <greeting><%= unko.greeting %></greeting>
+   </unko>
+  <% end %>
+ </unkos>
+</response>

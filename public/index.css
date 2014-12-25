@@ -1,0 +1,25 @@
+body {
+  max-width: 300px;
+  margin: auto;
+  background: #E3E3E3;
+  color: #222;
+}
+.unko {
+  color: #209B0D;
+}
+.unko-name {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.unko-greeting {
+  background: #D1F1CC;
+  border: solid 1px #81D674;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  margin-left: 1em;
+  margin-top: 0;
+  padding: 1em;
+}
+input {
+  font-size: 16px;
+}
